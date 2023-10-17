@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins"; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./img/backkk.png);
+}
+
+.primeiro {
+    width: 750px;
+    background: #333;
+    border-radius: 10px;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.primeiro h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.primeiro .input-box {
+    display:contents;
+    
+}
+
+.input-box .input-campo {
+    position: relative;
+    width: 70%;
+    height: 50px;
+    margin: 13px 0;
+    padding: 15px 50px 15px 150px;
+}
+
+.input-box .input-campo input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 15px 15px 15px 40px;
+    margin-left: 45px;
+
+}
+
+.input-box .input-campo input::placeholder {
+color: #fff;
+}
+
+.primeiro .btn {
+    width: 30%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background: #fff;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-left: 95px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
